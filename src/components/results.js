@@ -20,7 +20,7 @@ const Results = props => {
 		<div>
 			<div className="card">
 				<div className="card-block">
-					<h2>Search Results</h2>
+					<h2 className= "text-center">Search Results</h2>
 					<div>{articleItems}</div>
 				</div>
 			</div>

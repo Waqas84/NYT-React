@@ -19,7 +19,7 @@ const Saved = props => {
 		<div>
 			<div className="card">
 				<div className="card-block">
-					<h2>Saved Articles</h2>
+					<h2 className= "text-center">Saved Articles</h2>
 					<div>{savedArticles}</div>
 				</div>
 			</div>

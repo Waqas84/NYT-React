@@ -1,48 +1,50 @@
 body {
-	background-color: black;
-	background-image: url("https://ak8.picdn.net/shutterstock/videos/535255/thumb/1.jpg?i10c=img.resize(height:72)");
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	opacity: 0.92;
-	font-family: serif;
+    background-color: black;
+    background-image: url("https://ak8.picdn.net/shutterstock/videos/535255/thumb/1.jpg?i10c=img.resize(height:72)");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.92;
+    font-family: serif;
 }
 
 .jumbotron {
-	margin-top: 20px;
-	background: #304352; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to right,
-		#d7d2cc,
-		#304352
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#d7d2cc,
-		#304352
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 20px;
+    background: #304352;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to right,
+    #d7d2cc,
+    #304352);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to right,
+    #d7d2cc,
+    #304352);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 15rem;
+    width: 100%;
+    color: #f0f2f0;
+    background-position: center center;
+    background-size: cover;
+}
 
-	height: 15rem;
-	width: 100%;
-	color: #F0F2F0;
-	background-position: center center;
-	background-size: cover;
+.display-7 {
+    font-size: 25px;
 }
 
 .form-text-color {
-	color: white;
+    color: white;
 }
 
 #empty-db-alert {
-	display: none;
+    display: none;
 }
 
 .card {
-	margin: 1rem;
-	padding: 1rem;
-	background-color: #eef2f3;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #eef2f3;
 }
 
 .btn {
-	margin: 1rem;
+    margin: 1rem;
 }
