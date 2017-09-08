@@ -1,18 +1,24 @@
-
 body {
 	background-color: black;
 	background-image: url("../images/vintage-2608934_1920.jpg");
 	background-position: center center;
 	background-size: cover;
-	background-attachment:fixed;
-	opacity: .92;
-
+	background-attachment: fixed;
+	opacity: 0.92;
 }
 
 .jumbotron {
-	background: #485563;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #304352; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#d7d2cc,
+		#304352
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#d7d2cc,
+		#304352
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	height: 15rem;
 	width: 100%;
@@ -26,7 +32,7 @@ body {
 }
 
 #empty-db-alert {
-	display: none
+	display: none;
 }
 
 .card {

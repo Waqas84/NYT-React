@@ -1,14 +1,19 @@
-
 import React from "react";
 import SavedListItem from "./saved_list_item";
 
 const Saved = props => {
 	if (!props.savedItems.length) {
-		return null
+		return null;
 	}
-	console.log('props in Saved: ', props)
+	console.log("props in Saved: ", props);
 	const savedArticles = props.savedItems.map(article => {
-		return <SavedListItem key={article._id} article={article} getArticles={props.getArticles} />;
+		return (
+			<SavedListItem
+				key={article._id}
+				article={article}
+				getArticles={props.getArticles}
+			/>
+		);
 	});
 	return (
 		<div>
@@ -18,7 +23,6 @@ const Saved = props => {
 					<div>{savedArticles}</div>
 				</div>
 			</div>
-
 		</div>
 	);
 };
