@@ -29,7 +29,7 @@ class ResultsListItem extends Component {
 								<button
 									id="save-button"
 									type="button"
-									className="btn btn-outline-primary float-right"
+									className="btn btn-info float-right"
 									onClick={this.handleButtonClick}
 								>
 									Save Article
@@ -41,7 +41,7 @@ class ResultsListItem extends Component {
 								href={this.props.article.web_url}
 								target="_blank"
 							>
-								link here
+								{this.props.article.web_url}
 							</a>
 						</p>
 					</div>

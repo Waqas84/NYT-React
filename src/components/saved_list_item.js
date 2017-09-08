@@ -35,7 +35,7 @@ class SavedListItem extends Component {
 					</p>
 					<p>
 						<a href={this.props.article.url} target="_blank">
-							link here
+							{this.props.article.url}
 						</a>
 					</p>
 				</div>
