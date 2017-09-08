@@ -4,7 +4,7 @@ const Search = props =>
 <div>
     <form className="search">
 	    <div className="form-group">
-	      <label htmlFor="search" className="form-text-color">subject:</label>
+	      <label htmlFor="search" className="form-text-color">Subject:</label>
 	      <input
 	        value={props.search}
 	        onChange={props.handleInputChange}
@@ -16,7 +16,7 @@ const Search = props =>
 	        />
 	    </div>
 	    	    <div className="form-group">
-	      <label htmlFor="start-date" className="form-text-color">start date:</label>
+	      <label htmlFor="start-date" className="form-text-color">Start Date:</label>
 	      <input
 	        value={props.startDate}
 	        onChange={props.handleInputChange}
@@ -28,7 +28,7 @@ const Search = props =>
 	      />
 	    </div>
 	    <div className="form-group">
-	      <label htmlFor="end-date" className="form-text-color">end date:</label>
+	      <label htmlFor="end-date" className="form-text-color">End Date:</label>
 	      <input
 	        value={props.endDate}
 	        onChange={props.handleInputChange}
@@ -43,7 +43,7 @@ const Search = props =>
 	      <button
 	        type="submit"
 	        onClick={props.handleFormSubmit}
-	        className="btn btn-success"
+	        className="btn btn-secondary"
 	      >
 	        Search
 	      </button>
