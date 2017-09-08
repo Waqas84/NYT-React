@@ -9,6 +9,7 @@ body {
 }
 
 .jumbotron {
+	margin-top: 20px;
 	background: #304352; /* fallback for old browsers */
 	background: -webkit-linear-gradient(
 		to right,
