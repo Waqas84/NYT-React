@@ -1,10 +1,11 @@
 body {
 	background-color: black;
-	background-image: url("../images/vintage-2608934_1920.jpg");
+	background-image: url("https://ak8.picdn.net/shutterstock/videos/535255/thumb/1.jpg?i10c=img.resize(height:72)");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
 	opacity: 0.92;
+	font-family: serif;
 }
 
 .jumbotron {
